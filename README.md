@@ -205,13 +205,13 @@ The tests cover configuration composition, data processing, launch commands, and
 ## Citation
 
 ```bibtex
-@misc{li2025cotvectorstransferringprobing,
-  title={CoT Vectors: Transferring and Probing the Reasoning Mechanisms of LLMs},
-  author={Li Li and Ziyi Wang and Yongliang Wu and Jianfei Cai and Xu Yang},
-  year={2025},
-  eprint={2510.00579},
-  archivePrefix={arXiv},
-  primaryClass={cs.CL}
+@inproceedings{li2026cot,
+  title={Cot vectors: Transferring and probing the reasoning mechanisms of llms},
+  author={Li, Li and Wang, Ziyi and Wu, Yongliang and Cai, Jianfei and others},
+  booktitle={International Conference on Learning Representations},
+  volume={2026},
+  pages={108745--108767},
+  year={2026}
 }
 ```
 
