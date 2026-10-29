@@ -1,0 +1,7 @@
+# 主实验共用的向量插入与损失策略。
+cls:
+  _target_: src.shift_encoder.AttnFFNShift
+  attn_strategy: null
+  ffn_strategy: ShiftStrategy.VECTOR_SHIFT | ShiftStrategy.LEARNABLE_SHIFT_SCALE
+  shift_scale_init_value: 0.1
+model_strategy: Strategy.LM_LOSS | Strategy.LOGITS_KL_DIV
