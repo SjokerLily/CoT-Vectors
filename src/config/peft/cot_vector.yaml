@@ -1,0 +1,6 @@
+# licv 是已有实现中的内部类型名；保留以兼容向量加载逻辑。
+name: licv
+ce_loss_weight: 0.5
+align_loss_weight: 1.0
+lr: 0.005
+scale_lr: 0.01
